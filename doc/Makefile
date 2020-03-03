@@ -9,7 +9,7 @@
 TULIP_REL     = ../tulip
 
 # Epydoc options
-EPYDOC        = python -c 'from epydoc.cli import cli; cli()'
+EPYDOC        = python3 -c 'from epydoc.cli import cli; cli()'
 EPYBUILDDIR   = api_doc
 EPYOPTS       = -v --graph=classtree --no-sourcecode --no-private
 
